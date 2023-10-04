@@ -1,0 +1,15 @@
+@use "valiable" as *;
+
+
+.c-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-text-link-main);
+  color: var(--color-secondary-main);
+  text-decoration: none;
+
+  &--01 {}
+  &--02 {}
+  &--03 {}
+}
