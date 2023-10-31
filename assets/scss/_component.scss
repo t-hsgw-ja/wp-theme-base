@@ -1,4 +1,4 @@
-@use "valiable" as *;
+@use "variables" as *;
 
 
 .c-btn {
@@ -13,3 +13,8 @@
   &--02 {}
   &--03 {}
 }
+
+
+.c-header {}
+
+.c-footer {}

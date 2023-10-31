@@ -1,0 +1,13 @@
+@use "variables" as *;
+@use "mixin" as *;
+
+
+// MEDIA QUERY
+@include mq-min(sm) {.u-max-sm {display: none !important;}}
+@include mq-min(md) {.u-max-md {display: none !important;}}
+@include mq-min(lg) {.u-max-lg {display: none !important;}}
+@include mq-min(xl) {.u-max-xl {display: none !important;}}
+@include mq-max(sm) {.u-min-sm {display: none !important;}}
+@include mq-max(md) {.u-min-md {display: none !important;}}
+@include mq-max(lg) {.u-min-lg {display: none !important;}}
+@include mq-max(xl) {.u-min-xl {display: none !important;}}
