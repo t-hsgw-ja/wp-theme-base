@@ -1,0 +1,80 @@
+/* = = = = = = = = = = = =
+// How to use
+.hoge {
+ color: var(--color-primary-main);
+}
+= = = = = = = = = = = = */
+:root {
+  //
+  //  COLOR
+  //= = = = = = = = = = = = = = = = = = = = = = = = = = = =
+  --color-primary-light: #A6C8E7;
+  --color-primary-main:  #5496D3;
+  --color-primary-dark:  #3B7EBB;
+
+  --color-secondary-light: #FFFFFF;
+  --color-secondary-main:  #F5F5F5;
+  --color-secondary-dark:  #D9D9D9;
+
+  --color-accent-a-light: #e7a8a8;
+  --color-accent-a-main:  #dd8080;
+  --color-accent-a-dark:  #804c4c;
+
+  --color-accent-b-light: #8c8cf9;
+  --color-accent-b-main:  #605bee;
+  --color-accent-b-dark:  #423ab8;
+
+  --color-accent-c-light: #F5F2A3;
+  --color-accent-c-main:  #D9D45C;
+  --color-accent-c-dark:  #676418;
+
+  --color-accent-d-light: #B0D8C0;
+  --color-accent-d-main:  #7DB894;
+  --color-accent-d-dark:  #3F8159;
+
+  --color-text-negative-light: #F5C9C9;
+  --color-text-negative-main:  #E28E8E;
+  --color-text-negative-dark:  #D46A6A;
+
+  --color-text-positive-light: #B6B6B6;
+  --color-text-positive-main:  #464646;
+  --color-text-positive-dark:  #212121;
+
+  --color-text-link-light: #A6C8E7;
+  --color-text-link-main:  #5496D3;
+  --color-text-link-dark:  #3B7EBB;
+
+
+  //
+  // BORDER RADIUS
+  //= = = = = = = = = = = = = = = = = = = = = = = = = = = =
+  --border-radius-sm: 0.3rem;
+  --border-radius-md: 0.6rem;
+  --border-radius-lg: 0.9rem;
+  --border-radius-xl: 1.2rem;
+
+  //
+  // TRANSITION
+  //= = = = = = = = = = = = = = = = = = = = = = = = = = = =
+  --transition-sm: 0.3s;
+  --transition-md: 0.6s;
+  --transition-lg: 0.9s;
+  --transition-xl: 1.2s;
+}
+
+
+//
+// BREAK POINTS
+//= = = = = = = = = = = = = = = = = = = = = = = = = = = =
+$breakpoints-max: (
+  sm: 360px,
+  md: 500px,
+  lg: 900px,
+  xl: 1360px,
+);
+$breakpoints-min: (
+  sm: 361px,
+  md: 501px,
+  lg: 901px,
+  xl: 1361px,
+);

@@ -1,0 +1,34 @@
+@use "variables" as *;
+
+
+@mixin selectable {
+  user-select: initial;
+  pointer-events: initial;
+}
+@mixin unselectable {
+  user-select: none;
+  pointer-events: none;
+}
+
+
+// hoverできる環境のみhoverアニメーション
+@mixin hover {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+
+// MEDIA QUERY
+@mixin mq-max($size) {
+  @media all and (max-width: map-get($breakpoints-max, $size)) {
+    @content;
+  }
+}
+@mixin mq-min($size) {
+  @media all and (min-width: map-get($breakpoints-min, $size)) {
+    @content;
+  }
+}
